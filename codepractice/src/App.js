@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
-import FunctionalComp from './components/FunctionalComp';
-import ClassComp from './components/ClassComp';
-import Props from './components/props';
-import StateComp from './components/StateComp';
-import Counter from './components/Counter';
-import EventHandling from './components/EventHandling';
-import EventBinding from './components/EventBinding';
-import CondRendering from './components/CondRendering';
-import ListRendering from './components/ListRendering';
-import Forms from './components/Forms';
-import Lifecycle1 from './components/Lifecycle1';
+import Portals from './components/Portals';
+// import logo from './logo.svg';
+// import FunctionalComp from './components/FunctionalComp';
+// import ClassComp from './components/ClassComp';
+// import Props from './components/props';
+// import StateComp from './components/StateComp';
+// import Counter from './components/Counter';
+// import EventHandling from './components/EventHandling';
+// import EventBinding from './components/EventBinding';
+// import CondRendering from './components/CondRendering';
+// import ListRendering from './components/ListRendering';
+// import Forms from './components/Forms';
+// import Lifecycle1 from './components/Lifecycle1';
+// import { Fragment } from 'react';
+// import FragmentDemo from './components/FragmentDemo';
+// import Refs from './components/Refs';
+// import RefForwading from './components/RefForwading';
+// import RefForParent from './components/RefForParent';
+
+
 
 function App() {
   return (
     <div className="App">
       <fieldset>
-        <Lifecycle1/>
+       <Portals/>
        {/*
-      
       <ClassComp Day= "Sunday"/>
       <h1>Learning ReactJs</h1>
         <FunctionalComp/>
@@ -36,6 +43,10 @@ function App() {
         <CondRendering/>
         <ListRendering/>
         <Forms/>
+        <Lifecycle1/>
+        <FragmentDemo/>
+        <Refs/>
+        <RefForParent/>
         */}
         </fieldset>
     </div>
