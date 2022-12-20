@@ -1,5 +1,5 @@
 import './App.css';
-import Portals from './components/Portals';
+
 // import logo from './logo.svg';
 // import FunctionalComp from './components/FunctionalComp';
 // import ClassComp from './components/ClassComp';
@@ -17,14 +17,15 @@ import Portals from './components/Portals';
 // import Refs from './components/Refs';
 // import RefForwading from './components/RefForwading';
 // import RefForParent from './components/RefForParent';
-
+//import Portals from './components/Portals';
+// import ErrorHandling from './components/ErrorHandling';
+// import ErrorBoundary from './components/ErrorBoundary';
 
 
 function App() {
   return (
     <div className="App">
       <fieldset>
-       <Portals/>
        {/*
       <ClassComp Day= "Sunday"/>
       <h1>Learning ReactJs</h1>
@@ -47,6 +48,15 @@ function App() {
         <FragmentDemo/>
         <Refs/>
         <RefForParent/>
+        <Portals/>
+           <ErrorBoundary>
+        <ErrorHandling name="joy"/>
+        </ErrorBoundary>
+
+        <ErrorBoundary>
+        <ErrorHandling name="Joy"/>
+        </ErrorBoundary>
+        
         */}
         </fieldset>
     </div>
