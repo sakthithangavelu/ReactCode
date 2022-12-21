@@ -1,5 +1,4 @@
 import './App.css';
-
 // import logo from './logo.svg';
 // import FunctionalComp from './components/FunctionalComp';
 // import ClassComp from './components/ClassComp';
@@ -20,12 +19,20 @@ import './App.css';
 //import Portals from './components/Portals';
 // import ErrorHandling from './components/ErrorHandling';
 // import ErrorBoundary from './components/ErrorBoundary';
-
-
+// import PureComp from './components/PureComp';
+// import RegularComp from './components/RegularComp';
+// import ParentComp from './components/ParentComp';
+import HocClickCounter from './components/HocClickCounter';
+import HocHoverCounter from './components/HocHoverCounter';
+import UpdatedComponent from './components/HocWithCounter';
 function App() {
   return (
     <div className="App">
+         
       <fieldset>
+        <HocClickCounter/>
+        <HocHoverCounter/>
+        <UpdatedComponent/>
        {/*
       <ClassComp Day= "Sunday"/>
       <h1>Learning ReactJs</h1>
@@ -49,14 +56,11 @@ function App() {
         <Refs/>
         <RefForParent/>
         <Portals/>
-           <ErrorBoundary>
+        <ErrorBoundary>
         <ErrorHandling name="joy"/>
         </ErrorBoundary>
-
-        <ErrorBoundary>
-        <ErrorHandling name="Joy"/>
-        </ErrorBoundary>
-        
+        <ParentComp/> 
+    
         */}
         </fieldset>
     </div>
