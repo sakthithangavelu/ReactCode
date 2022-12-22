@@ -22,17 +22,23 @@ import './App.css';
 // import PureComp from './components/PureComp';
 // import RegularComp from './components/RegularComp';
 // import ParentComp from './components/ParentComp';
-import HocClickCounter from './components/HocClickCounter';
-import HocHoverCounter from './components/HocHoverCounter';
-import UpdatedComponent from './components/HocWithCounter';
+// import HocClickCounter from './components/HocClickCounter';
+// import HocHoverCounter from './components/HocHoverCounter';
+// import UpdatedComponent from './components/HocWithCounter';
+import ContextAComp from './components/ContextAComp';
+import ContextCComp from './components/ContextCComp';
+import { mainProvider } from './components/ContextMain';
 function App() {
   return (
     <div className="App">
          
       <fieldset>
-        <HocClickCounter/>
-        <HocHoverCounter/>
-        <UpdatedComponent/>
+        <mainProvider value="Sakthi">
+           <ContextAComp/>
+          
+        </mainProvider>
+        
+      
        {/*
       <ClassComp Day= "Sunday"/>
       <h1>Learning ReactJs</h1>
@@ -60,6 +66,9 @@ function App() {
         <ErrorHandling name="joy"/>
         </ErrorBoundary>
         <ParentComp/> 
+        <HocClickCounter/>
+        <HocHoverCounter/>
+        <UpdatedComponent/>
     
         */}
         </fieldset>
