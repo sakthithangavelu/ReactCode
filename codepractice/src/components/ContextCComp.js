@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import { mainConsumer } from './ContextMain'
 
 class ContextCComp extends Component {
@@ -6,8 +7,8 @@ class ContextCComp extends Component {
     return (
     <mainConsumer>
         {
-            (username) =>  {
-                return <div>Hi {username}</div>
+            (value) =>  {
+                return <div>Hi {value}</div>
             }
         }
     </mainConsumer>

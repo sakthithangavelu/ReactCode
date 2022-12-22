@@ -23,7 +23,7 @@ class ClassComp extends React.Component{
     render(){
         return(
             <div>
-        <h2>Main class is working{this.props.Day}</h2>
+        <h2>Main class is working {this.props.Day}</h2>
         <Sakthi/>
         </div>
         )

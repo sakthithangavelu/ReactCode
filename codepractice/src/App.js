@@ -1,17 +1,17 @@
 import './App.css';
 // import logo from './logo.svg';
-// import FunctionalComp from './components/FunctionalComp';
-// import ClassComp from './components/ClassComp';
-// import Props from './components/props';
+//  import FunctionalComp from './components/FunctionalComp';
+//  import ClassComp from './components/ClassComp';
+//import Props from './components/props';
 // import StateComp from './components/StateComp';
 // import Counter from './components/Counter';
 // import EventHandling from './components/EventHandling';
 // import EventBinding from './components/EventBinding';
-// import CondRendering from './components/CondRendering';
-// import ListRendering from './components/ListRendering';
-// import Forms from './components/Forms';
+//  import CondRendering from './components/CondRendering';
+//  import ListRendering from './components/ListRendering';
+import Forms from './components/Forms';
 // import Lifecycle1 from './components/Lifecycle1';
-// import { Fragment } from 'react';
+//  import { Fragment } from 'react';
 // import FragmentDemo from './components/FragmentDemo';
 // import Refs from './components/Refs';
 // import RefForwading from './components/RefForwading';
@@ -21,24 +21,18 @@ import './App.css';
 // import ErrorBoundary from './components/ErrorBoundary';
 // import PureComp from './components/PureComp';
 // import RegularComp from './components/RegularComp';
-// import ParentComp from './components/ParentComp';
+//import ParentComp from './components/ParentComp';
 // import HocClickCounter from './components/HocClickCounter';
 // import HocHoverCounter from './components/HocHoverCounter';
 // import UpdatedComponent from './components/HocWithCounter';
-import ContextAComp from './components/ContextAComp';
-import ContextCComp from './components/ContextCComp';
-import { mainProvider } from './components/ContextMain';
+// import ContextAComp from './components/ContextAComp';
+// import ContextCComp from './components/ContextCComp';
+// import { mainProvider } from './components/ContextMain';
 function App() {
   return (
     <div className="App">
-         
       <fieldset>
-        <mainProvider value="Sakthi">
-           <ContextAComp/>
-          
-        </mainProvider>
-        
-      
+      <Forms/>
        {/*
       <ClassComp Day= "Sunday"/>
       <h1>Learning ReactJs</h1>
@@ -58,18 +52,21 @@ function App() {
         <ListRendering/>
         <Forms/>
         <Lifecycle1/>
-        <FragmentDemo/>
+        <ParentComp/> 
         <Refs/>
         <RefForParent/>
         <Portals/>
         <ErrorBoundary>
         <ErrorHandling name="joy"/>
         </ErrorBoundary>
-        <ParentComp/> 
+        <FragmentDemo/>
         <HocClickCounter/>
         <HocHoverCounter/>
         <UpdatedComponent/>
-    
+        <mainProvider value="Sakthi">
+        <ContextAComp/>
+        </mainProvider>
+  
         */}
         </fieldset>
     </div>
