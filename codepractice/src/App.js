@@ -9,8 +9,9 @@ import './App.css';
 // import EventBinding from './components/EventBinding';
 //  import CondRendering from './components/CondRendering';
 //  import ListRendering from './components/ListRendering';
-import Forms from './components/Forms';
+// import Forms from './components/Forms';
 // import Lifecycle1 from './components/Lifecycle1';
+// import Portals from './components/Portals';
 //  import { Fragment } from 'react';
 // import FragmentDemo from './components/FragmentDemo';
 // import Refs from './components/Refs';
@@ -28,11 +29,13 @@ import Forms from './components/Forms';
 // import ContextAComp from './components/ContextAComp';
 // import ContextCComp from './components/ContextCComp';
 // import { mainProvider } from './components/ContextMain';
+import JSX from './components/JSX';
 function App() {
   return (
     <div className="App">
       <fieldset>
-      <Forms/>
+      <JSX/>
+     
        {/*
       <ClassComp Day= "Sunday"/>
       <h1>Learning ReactJs</h1>
