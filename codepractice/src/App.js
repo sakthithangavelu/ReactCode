@@ -29,13 +29,15 @@ import './App.css';
 // import ContextAComp from './components/ContextAComp';
 // import ContextCComp from './components/ContextCComp';
 // import { mainProvider } from './components/ContextMain';
-import JSX from './components/JSX';
+// import JSX from './components/JSX';
+import HooksUseState from './components/HooksUseState';
+import HooksUseEffect from './components/HooksUseEffect';
 function App() {
   return (
     <div className="App">
       <fieldset>
-      <JSX/>
-     
+        <HooksUseState/>
+        <HooksUseEffect/>
        {/*
       <ClassComp Day= "Sunday"/>
       <h1>Learning ReactJs</h1>
@@ -69,7 +71,9 @@ function App() {
         <mainProvider value="Sakthi">
         <ContextAComp/>
         </mainProvider>
-  
+        <JSX/>
+        <HooksUseState/>
+        <HooksUseEffect/>
         */}
         </fieldset>
     </div>
