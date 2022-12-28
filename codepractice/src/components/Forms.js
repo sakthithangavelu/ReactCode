@@ -37,12 +37,12 @@ class Forms extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <div>
                         <label>Name : </label>
-                        <input type="text" value={this.state.username} onChange={this.handleUsernameChange} />
+                        <input data-testid="form1" type="text" value={this.state.username} onChange={this.handleUsernameChange} />
                     </div>
                     <br></br>
                     <div>
                         <label>Feedback : </label>
-                        <textarea value={this.state.feedback} onChange={this.handleFeedbackChange}></textarea>
+                        <textarea  value={this.state.feedback} onChange={this.handleFeedbackChange}></textarea>
                     </div>
                     <br></br>
                     <div>

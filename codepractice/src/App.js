@@ -36,14 +36,15 @@ import React from 'react';
 // import HooksUseEffect from './components/HooksUseEffect';
 // import Timer from './components/HooksCleanUpuseEffect';
 // import HookuseContextA from './components/HookuseContextA';
-import HookUseRef from './components/HookUseRef';
+// import HookUseRef from './components/HookUseRef';
+// import RenderProps from './components/Renderprops';
 
 function App() {
   return (
     <div className="App">
       <fieldset>
-    
-    <HookUseRef/>  
+        <RenderProps/>
+      
        {/*
       <ClassComp Day= "Sunday"/>
       <h1>Learning ReactJs</h1>
@@ -81,6 +82,8 @@ function App() {
         <HooksUseState/>
         <HooksUseEffect/>
         <Timer/>
+        <HookUseRef/>  
+        <RenderProps/>
         */}
 
           {/* export const UserContext = React.createContext()
