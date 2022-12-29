@@ -58,6 +58,9 @@ class Forms extends Component {
                         <button>Submit</button>
                     </div>
                 </form>
+                <div>
+                    <a href='Counter'>Counter</a>
+                </div>
             </>
         )
     }

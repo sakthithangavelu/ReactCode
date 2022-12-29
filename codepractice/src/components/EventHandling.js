@@ -9,7 +9,7 @@ function EventHandling() {
   return (
     <div>
       <h1>Event Handling</h1>
-        <button onClick={ClickEvent}>click</button>
+        <button onClick={clickEvent}>click</button>
    </div>
   )
 }
