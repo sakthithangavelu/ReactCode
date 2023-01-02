@@ -6,7 +6,7 @@ function HookuseContextC() {
     <div>
       <UserContext.Consumer>
         {
-          user=> {
+          user => {
             return <div>UserContext value {user}</div>
           }
         }

@@ -8,10 +8,12 @@ import React from 'react';
 // import Counter from './components/Counter';
 // import EventHandling from './components/EventHandling';
 // import EventBinding from './components/EventBinding';
-// import CondRendering from './components/CondRendering';
+//  import CondRendering from './components/CondRendering';
+import { Axios } from 'axios';
+import AxiosGetReq from './components/AxiosGetReq';
 // import ListRendering from './components/ListRendering';
-   import Forms from './components/Forms';
- import Lifecycle1 from './components/Lifecycle1';
+//    import Forms from './components/Forms';
+//  import Lifecycle1 from './components/Lifecycle1';
 // import Portals from './components/Portals';
 // import { Fragment } from 'react';
 // import FragmentDemo from './components/FragmentDemo';
@@ -42,7 +44,8 @@ function App() {
   return (
     <div className="App">
       <fieldset>
-      <Lifecycle1/>
+      <AxiosGetReq/>
+    
        {/*
        <ClassComp Day= "Sunday"/>
        <h1>Learning ReactJs</h1>
@@ -84,14 +87,14 @@ function App() {
         <RenderProps/>
         */}
 
-          export const UserContext = React.createContext()
+          {/* export const UserContext = React.createContext()
           export const NewUserContext = React.createContext()
            <UserContext.Provider value={"Sakthi"}>
             <NewUserContext.Provider value={"Vel"}>
               <HookuseContextA/>
             </NewUserContext.Provider>
            </UserContext.Provider>
-        
+         */}
         </fieldset>
     </div>
   );
