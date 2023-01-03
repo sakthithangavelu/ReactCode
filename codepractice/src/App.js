@@ -8,12 +8,10 @@ import React from 'react';
 // import Counter from './components/Counter';
 // import EventHandling from './components/EventHandling';
 // import EventBinding from './components/EventBinding';
-//  import CondRendering from './components/CondRendering';
-import { Axios } from 'axios';
-import AxiosGetReq from './components/AxiosGetReq';
+// import CondRendering from './components/CondRendering';
 // import ListRendering from './components/ListRendering';
-//    import Forms from './components/Forms';
-//  import Lifecycle1 from './components/Lifecycle1';
+// import Forms from './components/Forms';
+// import Lifecycle1 from './components/Lifecycle1';
 // import Portals from './components/Portals';
 // import { Fragment } from 'react';
 // import FragmentDemo from './components/FragmentDemo';
@@ -39,13 +37,18 @@ import AxiosGetReq from './components/AxiosGetReq';
 // import HookuseContextA from './components/HookuseContextA';
 // import HookUseRef from './components/HookUseRef';
 // import RenderProps from './components/Renderprops';
+// import { Axios } from 'axios';
+// import AxiosGetReq from './components/AxiosGetReq';
+// import AxiosPostReq from './components/AxiosPostReq';
+import PropTypeChecking from './components/PropTypeChecking';
 
 function App() {
   return (
     <div className="App">
       <fieldset>
-      <AxiosGetReq/>
+
     
+       <PropTypeChecking name={"Sakthivel"}/>
        {/*
        <ClassComp Day= "Sunday"/>
        <h1>Learning ReactJs</h1>
@@ -85,6 +88,8 @@ function App() {
         <Timer/>
         <HookUseRef/>  
         <RenderProps/>
+        <AxiosGetReq/>
+        <AxiosPostReq/>
         */}
 
           {/* export const UserContext = React.createContext()
