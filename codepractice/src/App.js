@@ -40,15 +40,15 @@ import React from 'react';
 // import { Axios } from 'axios';
 // import AxiosGetReq from './components/AxiosGetReq';
 // import AxiosPostReq from './components/AxiosPostReq';
-import PropTypeChecking from './components/PropTypeChecking';
+// import PropTypeChecking from './components/PropTypeChecking';
+import ReduxDemo from './components/ReduxDemo';
+
 
 function App() {
   return (
     <div className="App">
       <fieldset>
-
-    
-       <PropTypeChecking name={"Sakthivel"}/>
+      
        {/*
        <ClassComp Day= "Sunday"/>
        <h1>Learning ReactJs</h1>
@@ -90,7 +90,11 @@ function App() {
         <RenderProps/>
         <AxiosGetReq/>
         <AxiosPostReq/>
-        */}
+       <PropTypeChecking name={"Sakthivel"}/>
+
+         <ReduxDemo/>
+       
+      */}
 
           {/* export const UserContext = React.createContext()
           export const NewUserContext = React.createContext()
@@ -100,6 +104,8 @@ function App() {
             </NewUserContext.Provider>
            </UserContext.Provider>
          */}
+        
+
         </fieldset>
     </div>
   );

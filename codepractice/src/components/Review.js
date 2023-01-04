@@ -1,5 +1,7 @@
 // import React from "react";
 
+import { Fragment } from "react";
+
 // const hoc = (WrapComp) =>
 // {
 //     class Hoc extends React.Component{
@@ -18,20 +20,60 @@
 
 // </Fragment>
 
-function ListComp() {
+// function ListComp() {
 
-    const employee =[
-        {
-            name : "Sakthi"
-        },
-        {
-            name : "Vel"
-        },
-    ];
-    return (
-        <div>
-            <h1>List components</h1>
-            {employee}
-        </div>
+//     const employee =[
+//         {
+//             name : "Sakthi"
+//         },
+//         {
+//             name : "Vel"
+//         },
+//     ];
+//     return (
+//         <div>
+//             <h1>List components</h1>
+//             {employee}
+//         </div>
+//     )
+// }
+
+// <>
+// <h1> Example1 </h1>
+// <button></button>
+// </>
+
+// function SampleEvent(){
+
+//     function ClickEvent(){
+//         return alert("Clicked the button")
+//     }
+//     return(
+//         <div>
+//             <input type="checkbox" c
+//             <button onClick={ClickEvent}>Click</button>
+//         </div>
+//     )
+// }
+
+function PropComponent (Value){
+    return(
+        <h1> Hi {Value.name} </h1>
     )
 }
+export default PropComponent
+
+
+// import React from "react";
+// import PropComponent from "./Review";
+
+// function PropcompChild(){
+//     return(
+//         <>
+//         <PropComponent/>
+//         <h1>This is child comp {name}</h1>
+//         </>
+        
+//     )
+// }
+// export default PropcompChild
