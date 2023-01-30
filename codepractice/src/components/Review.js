@@ -56,12 +56,12 @@ import { Fragment } from "react";
 //     )
 // }
 
-function PropComponent (Value){
-    return(
-        <h1> Hi {Value.name} </h1>
-    )
-}
-export default PropComponent
+// function PropComponent (Value){
+//     return(
+//         <h1> Hi {Value.name} </h1>
+//     )
+// }
+// export default PropComponent
 
 
 // import React from "react";
@@ -77,3 +77,17 @@ export default PropComponent
 //     )
 // }
 // export default PropcompChild
+
+// import { useState } from "react";
+
+// const CheckBox = ({label}) => {
+//     const [isChecked,setIsChecked] = useState(false);
+//     return(
+//         <> 
+//         <input type="checkbox" checked={isChecked} onChange={()=>setIsChecked((prev)=>!prev)} />
+//         <span>{isChecked?"selected":"unchecked"}</span>
+//         </>
+//           )
+// }
+// export default CheckBox;
+

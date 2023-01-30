@@ -42,13 +42,14 @@ import React from 'react';
 // import AxiosPostReq from './components/AxiosPostReq';
 // import PropTypeChecking from './components/PropTypeChecking';
 import ReduxDemo from './components/ReduxDemo';
+import CheckBox from './components/Review';
 
 
 function App() {
   return (
     <div className="App">
       <fieldset>
-      
+          <CheckBox label="select"/>
        {/*
        <ClassComp Day= "Sunday"/>
        <h1>Learning ReactJs</h1>
@@ -90,9 +91,8 @@ function App() {
         <RenderProps/>
         <AxiosGetReq/>
         <AxiosPostReq/>
-       <PropTypeChecking name={"Sakthivel"}/>
-
-         <ReduxDemo/>
+        <PropTypeChecking name={"Sakthivel"}/>
+        <ReduxDemo/>
        
       */}
 
