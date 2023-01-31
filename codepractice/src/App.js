@@ -10,7 +10,7 @@ import React from 'react';
 // import EventBinding from './components/EventBinding';
 // import CondRendering from './components/CondRendering';
 // import ListRendering from './components/ListRendering';
-// import Forms from './components/Forms';
+import Forms from './components/Forms';
 // import Lifecycle1 from './components/Lifecycle1';
 // import Portals from './components/Portals';
 // import { Fragment } from 'react';
@@ -41,15 +41,15 @@ import React from 'react';
 // import AxiosGetReq from './components/AxiosGetReq';
 // import AxiosPostReq from './components/AxiosPostReq';
 // import PropTypeChecking from './components/PropTypeChecking';
-import ReduxDemo from './components/ReduxDemo';
-import CheckBox from './components/Review';
+// import ReduxDemo from './components/ReduxDemo';
+// import CheckBox from './components/Review';
 
 
 function App() {
   return (
     <div className="App">
       <fieldset>
-          <CheckBox label="select"/>
+      <Forms/>
        {/*
        <ClassComp Day= "Sunday"/>
        <h1>Learning ReactJs</h1>
@@ -92,7 +92,9 @@ function App() {
         <AxiosGetReq/>
         <AxiosPostReq/>
         <PropTypeChecking name={"Sakthivel"}/>
-        <ReduxDemo/>
+        <ReduxDemo/> 
+        <CheckBox label="select"/>
+
        
       */}
 
